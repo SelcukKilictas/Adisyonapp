@@ -67,6 +67,7 @@ namespace Adisyonapp
             this.lblUrunAdi.Size = new System.Drawing.Size(93, 25);
             this.lblUrunAdi.TabIndex = 2;
             this.lblUrunAdi.Text = "Ürün Adı";
+            this.lblUrunAdi.Click += new System.EventHandler(this.lblUrunAdi_Click);
             // 
             // lblAciklama
             // 
