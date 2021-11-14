@@ -53,7 +53,7 @@ namespace Adisyonapp
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(641, 61);
+            this.label1.Size = new System.Drawing.Size(561, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = " ADİSYON FİŞİ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -62,9 +62,9 @@ namespace Adisyonapp
             // 
             this.lblUrunAdi.AutoSize = true;
             this.lblUrunAdi.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblUrunAdi.Location = new System.Drawing.Point(14, 113);
+            this.lblUrunAdi.Location = new System.Drawing.Point(12, 85);
             this.lblUrunAdi.Name = "lblUrunAdi";
-            this.lblUrunAdi.Size = new System.Drawing.Size(117, 32);
+            this.lblUrunAdi.Size = new System.Drawing.Size(93, 25);
             this.lblUrunAdi.TabIndex = 2;
             this.lblUrunAdi.Text = "Ürün Adı";
             this.lblUrunAdi.Click += new System.EventHandler(this.lblUrunAdi_Click);
@@ -73,9 +73,9 @@ namespace Adisyonapp
             // 
             this.lblAciklama.AutoSize = true;
             this.lblAciklama.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblAciklama.Location = new System.Drawing.Point(15, 384);
+            this.lblAciklama.Location = new System.Drawing.Point(13, 288);
             this.lblAciklama.Name = "lblAciklama";
-            this.lblAciklama.Size = new System.Drawing.Size(118, 32);
+            this.lblAciklama.Size = new System.Drawing.Size(92, 25);
             this.lblAciklama.TabIndex = 3;
             this.lblAciklama.Text = "Açıklama";
             // 
@@ -83,9 +83,9 @@ namespace Adisyonapp
             // 
             this.lblTutar.AutoSize = true;
             this.lblTutar.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTutar.Location = new System.Drawing.Point(389, 247);
+            this.lblTutar.Location = new System.Drawing.Point(340, 185);
             this.lblTutar.Name = "lblTutar";
-            this.lblTutar.Size = new System.Drawing.Size(73, 32);
+            this.lblTutar.Size = new System.Drawing.Size(59, 25);
             this.lblTutar.TabIndex = 4;
             this.lblTutar.Text = "Tutar";
             // 
@@ -93,9 +93,9 @@ namespace Adisyonapp
             // 
             this.lblAdet.AutoSize = true;
             this.lblAdet.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblAdet.Location = new System.Drawing.Point(14, 247);
+            this.lblAdet.Location = new System.Drawing.Point(12, 185);
             this.lblAdet.Name = "lblAdet";
-            this.lblAdet.Size = new System.Drawing.Size(68, 32);
+            this.lblAdet.Size = new System.Drawing.Size(54, 25);
             this.lblAdet.TabIndex = 5;
             this.lblAdet.Text = "Adet";
             // 
@@ -103,60 +103,54 @@ namespace Adisyonapp
             // 
             this.lblFiyat.AutoSize = true;
             this.lblFiyat.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblFiyat.Location = new System.Drawing.Point(389, 113);
+            this.lblFiyat.Location = new System.Drawing.Point(340, 85);
             this.lblFiyat.Name = "lblFiyat";
-            this.lblFiyat.Size = new System.Drawing.Size(75, 32);
+            this.lblFiyat.Size = new System.Drawing.Size(59, 25);
             this.lblFiyat.TabIndex = 6;
             this.lblFiyat.Text = "Fiyatı";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(389, 300);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Location = new System.Drawing.Point(340, 225);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(158, 27);
+            this.textBox1.Size = new System.Drawing.Size(139, 23);
             this.textBox1.TabIndex = 7;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(14, 300);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.Location = new System.Drawing.Point(12, 225);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(174, 27);
+            this.textBox2.Size = new System.Drawing.Size(153, 23);
             this.textBox2.TabIndex = 8;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(389, 157);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox3.Location = new System.Drawing.Point(340, 118);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(158, 27);
+            this.textBox3.Size = new System.Drawing.Size(139, 23);
             this.textBox3.TabIndex = 9;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(14, 157);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox4.Location = new System.Drawing.Point(12, 118);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(174, 27);
+            this.textBox4.Size = new System.Drawing.Size(153, 23);
             this.textBox4.TabIndex = 10;
             // 
             // txtAciklama
             // 
-            this.txtAciklama.Location = new System.Drawing.Point(14, 421);
-            this.txtAciklama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAciklama.Location = new System.Drawing.Point(12, 316);
             this.txtAciklama.Multiline = true;
             this.txtAciklama.Name = "txtAciklama";
-            this.txtAciklama.Size = new System.Drawing.Size(489, 184);
+            this.txtAciklama.Size = new System.Drawing.Size(428, 139);
             this.txtAciklama.TabIndex = 11;
             // 
             // btnYazdır
             // 
-            this.btnYazdır.Location = new System.Drawing.Point(14, 615);
-            this.btnYazdır.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnYazdır.Location = new System.Drawing.Point(12, 461);
             this.btnYazdır.Name = "btnYazdır";
-            this.btnYazdır.Size = new System.Drawing.Size(114, 51);
+            this.btnYazdır.Size = new System.Drawing.Size(100, 38);
             this.btnYazdır.TabIndex = 12;
             this.btnYazdır.Text = "Yazdır";
             this.btnYazdır.UseVisualStyleBackColor = true;
@@ -173,16 +167,12 @@ namespace Adisyonapp
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
-            // printDocument1
-            // 
-            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage_1);
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(641, 681);
+            this.ClientSize = new System.Drawing.Size(561, 511);
             this.Controls.Add(this.btnYazdır);
             this.Controls.Add(this.txtAciklama);
             this.Controls.Add(this.textBox4);
@@ -197,7 +187,6 @@ namespace Adisyonapp
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ADİSYON";
